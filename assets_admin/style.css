@@ -1,0 +1,163 @@
+.nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    background: gainsboro;
+    margin-bottom: 22px;
+    font-weight: bold;
+}
+
+.dashboard_letters{
+    font-size: 100px;
+    font-weight: bold;
+    color: darkgrey;
+    padding-top: 100px;
+}
+
+.my_left_side{
+    height: 1300px;width: 25%;background: black;
+}
+
+.my_nav_it{
+    width: 100%;
+    text-align: center;
+}
+.my_nav_it a{
+    margin: 5px;
+    color: #f54542;
+}
+
+.logo{
+    text-align: center;
+    padding: 28px 0;
+    font-size: 25px;
+}
+.logo a{
+    text-decoration: none!important;
+    cursor: pointer;
+    font-weight: bold;
+    color: #f54542;
+}
+.logo a:first-child:hover{
+    color: #f54542;
+}
+.my_title{
+    float: left;
+    color: #f54542;
+    padding-top: 0px;
+    margin-left: 12px;
+}
+.logo a:hover{
+    color: white;
+}
+.my_nav_it a:hover{
+    color: white;
+}
+.header_main{
+    margin: 10px 0;
+}
+
+.create{
+    text-decoration: none!important;
+    cursor: pointer;
+    font-weight: bold;
+    color: #f54542;
+    padding: 10px;
+}
+.create:hover{
+    color: white;
+}
+.header_main ul{
+    list-style: none;
+    margin: 3px;
+}
+.header_main ul li a{
+    text-decoration: none;
+    color: #f54542!important;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.header_main ul li a:hover{
+color: white!important;
+
+
+}
+.pagi {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background: #9c27b0;
+    color: #ffffff;
+    font-weight: bold;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    box-shadow: -2px 3px 4px 3px #888888;
+}
+.pagi:hover{
+    background: #305254;
+    color: #ffffff;
+    transition: .2s;
+    text-decoration: none;
+}
+.search_ic{
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 5px;
+    vertical-align: middle;
+    color: cadetblue;
+}
+.search_inp{
+    height: 40px;
+    width: 250px;
+    border: 2px solid cadetblue;
+    padding-left: 10px
+}
+.main_active {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background: black;
+    text-decoration: none!important;
+    color: white;
+    font-weight: bold;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    box-shadow: -2px 3px 4px 3px #888888;
+}
+.delete{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.update{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.delete a{
+    color: darkred;
+    text-decoration: none!important;
+}
+.update{
+    color: green;
+    text-decoration: none;
+}
+.update a{
+    color: green;
+    text-decoration: none!important;
+}
+.update a:hover{
+    opacity: .7;
+}
+.delete a:hover{
+    opacity: .7;
+}
+.create_page_inputs{
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+}
