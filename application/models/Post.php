@@ -1,7 +1,10 @@
 <?php
 
 namespace application\models;
+use application\base\View;
 use application\components\Db;
+use application\components\Pagination;
+use application\components\Router;
 use application\components\Validator;
 
 /**
@@ -92,6 +95,47 @@ class Post
             $posts[$i]['id'] = $row['id'];
             $posts[$i]['sport_id'] = $row['sport_id'];
             $posts[$i]['sport_name'] = $row['sport_name'];
+            $posts[$i]['country_id'] = $row['country_id'];
+            $posts[$i]['title'] = $row['title'];
+            $posts[$i]['slug'] = $row['slug'];
+            $posts[$i]['text'] = $row['text'];
+            $posts[$i]['is_important'] = $row['is_important'];
+            $posts[$i]['is_armenian_news'] = $row['is_armenian_news'];
+            $posts[$i]['is_for_banner'] = $row['is_for_banner'];
+            $posts[$i]['video_link'] = $row['video_link'];
+            $posts[$i]['image'] = $row['image'];
+            $posts[$i]['post_date'] = $row['post_date'];
+            $i++;
+        }
+
+        return $posts;
+    }
+
+    public static function getPostsByCategory($id){
+        $url = trim($_SERVER['REQUEST_URI'],'/');
+        $arrUrl = explode('/', $url);
+        $page = Router::getPage();
+        $thisUri = $_SERVER['REQUEST_URI'];
+        $category = Router::getSegment('2');
+
+        if ($thisUri ==  "/category/$category"){
+            View::redirect("/category/$category/page/1");
+        }
+        $pagination = new Pagination('/category/'.$arrUrl[1].'/page/','posts','4','4');
+        $limit = $pagination->limit;
+        $res_per_page = $pagination->result_per_page;
+        $this_page_first_result = ($page - 1) * $res_per_page;
+
+        $db = Db::getConnection();
+
+        $result = $db->query("SELECT * FROM posts WHERE posts.sport_id = '$id' ORDER BY id DESC  LIMIT $this_page_first_result,$limit");
+
+        $i = 0;
+        $posts = array();
+
+        while ($row = $result->fetch()) {
+            $posts[$i]['id'] = $row['id'];
+            $posts[$i]['sport_id'] = $row['sport_id'];
             $posts[$i]['country_id'] = $row['country_id'];
             $posts[$i]['title'] = $row['title'];
             $posts[$i]['slug'] = $row['slug'];

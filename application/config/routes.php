@@ -21,6 +21,7 @@ return array(
     'login' => 'user/login',
     'logout' => 'user/logout',
 
+    'category/([a-zA-Z0-9\-\_]+)/page/([0-9]+)' => 'category/index/$1',
     'category/([a-zA-Z0-9\-\_]+)' => 'category/index/$1',
     '([a-zA-Z0-9\-\_]+)' => 'site/view/$1',
     '' => 'site/index',

@@ -1,15 +1,15 @@
 <aside class="right_content">
     <div class="single_sidebar">
-        <h2><span>Կարեվոր Նորություններ</span></h2>
+        <h2 style="margin-bottom: 20px;"><span>Կարեվոր Նորություններ</span></h2>
         <ul class="spost_nav">
             <?php
             $where_important_post = 'WHERE is_important = 1';
             foreach (\application\models\Post::getPosts(4,$where_important_post) as $important) : ?>
-                <li>
+                <li style="border-bottom: 1px solid #ff7512">
                     <div class="media wow fadeInDown"> <a href="/<?= $important['slug'] ?>" class="media-left"> <img alt="<?= $important['image'] ?>" src="../../../images/<?= $important['image'] ?>"> </a>
                         <div class="media-body">
-                            <a href="/<?= $important['slug'] ?>" class="catg_title"> <?= $important['title'] ?></a><br>
-                            <span style="color: slategray"><?= substr($important['post_date'], 0, -3)  ?></span>
+                            <a href="/<?= $important['slug'] ?>" class="catg_title"> <b><?= $important['title'] ?></b></a><br>
+                            <b style="color: #ff7512"><?= substr($important['post_date'], 0, -3)  ?></b>
                         </div>
                     </div>
                 </li>
@@ -28,10 +28,10 @@
                     <ul style="margin-top: 30px;">
                         <?php foreach (\application\models\Sport::getSports() as $sportLink) : ?>
                             <?php if ($sportLink['id'] != '8') : ?>
-                                <li class="cat-item"><a href="#">#<?=$sportLink['sport_name'] ?> </a></li>
+                                <li class="cat-item"><a href="#"><b>#<?=$sportLink['sport_name'] ?></b> </a></li>
                             <?php endif; ?>
                         <?php endforeach; ?>
-                        <li class="cat-item"><a href="#">#<?= \application\models\Sport::getSports()[5]['sport_name'] ?></a></li>
+                        <li class="cat-item"><a href="#"><b>#<?= \application\models\Sport::getSports()[5]['sport_name'] ?></b></a></li>
                     </ul>
                 </div>
                 <div class="single_sidebar wow fadeInDown">
@@ -39,7 +39,7 @@
                     <ul style="margin-top: 30px;">
                         <?php foreach (\application\models\Country::getCountries() as $countryLink) : ?>
                             <?php if ($countryLink['id'] != '9') : ?>
-                                <li class="cat-item"><a href="#">#<?= $countryLink['country_name'] ?></a></li>
+                                <li class="cat-item"><a href="#"><b>#<?= $countryLink['country_name'] ?></b></a></li>
                             <?php endif; ?>
                         <?php endforeach; ?>
                         <li class="cat-item"><a href="#">#<?= \application\models\Country::getCountries()[7]['country_name'] ?></a></li>

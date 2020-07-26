@@ -58,10 +58,10 @@
                     <li class="active"><a href="/"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
                     <?php foreach (\application\models\Sport::getSports() as $sport) : ?>
                         <?php if ($sport['id'] != '8') : ?>
-                            <li><a href="/category/<?= $sport['id'] ?>"><?= $sport['sport_name'] ?></a></li>
+                            <li><a href="/category/<?= $sport['slug'] ?>"><?= $sport['sport_name'] ?></a></li>
                         <?php endif;?>
                     <?php endforeach; ?>
-                    <li><a href="/category/<?= \application\models\Sport::getSports()[5]['id'] ?>"><?= \application\models\Sport::getSports()[5]['sport_name'] ?></a></li>
+                    <li><a href="/category/<?= \application\models\Sport::getSports()[5]['slug'] ?>"><?= \application\models\Sport::getSports()[5]['sport_name'] ?></a></li>
                 </ul>
             </div>
         </nav>
@@ -78,11 +78,10 @@
                     </ul>
                     <div class="social_area">
                         <ul class="social_nav">
-                            <li class="facebook"><a href="#"></a></li>
-                            <li class="twitter"><a href="#"></a></li>
-                            <li class="mail"><a href="#"></a></li>
-                            <li class="googleplus"><a href="#"></a></li>
-                            <li class="youtube"><a href="#"></a></li>
+                            <li class="facebook"><a href="#"><img style="width: 28px;padding: 2px 2px 0px 1px;" src="../../../assets/css/images/facebook_logo.png" alt=""></a></li>
+                            <li class="flickr"><a href="#"><img style="width: 28px;padding: 2px 2px 0px 1px;" src="../../../assets/css/images/600px-Instagram_icon.png" alt=""></a></li>
+                            <li class="mail"><a href="#"><img style="width: 30px;padding: 5px 2px 0px 1px;" src="../../../assets/css/images/gmail-logo-3.png" alt=""></a></li>
+                            <li class="youtube"><a href="#"><img style="width: 60px;padding: 6px 10px 0px 9px" src="../../../assets/css/images/800px-YouTube_Logo.svg.png" alt=""></a></li>
                         </ul>
                     </div>
                 </div>

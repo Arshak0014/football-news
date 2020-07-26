@@ -64,6 +64,7 @@ class Sport
         while ($row = $result->fetch()) {
             $sports[$i]['id'] = $row['id'];
             $sports[$i]['sport_name'] = $row['sport_name'];
+            $sports[$i]['slug'] = $row['slug'];
             $sports[$i]['icon_image'] = $row['icon_image'];
             $i++;
         }

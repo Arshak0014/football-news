@@ -9,9 +9,9 @@
                         <img src="images/<?= $bannerPost['image'] ?>" alt="<?= $bannerPost['image'] ?>">
                     </a>
                     <div class="slider_article">
-                        <h2><a class="slider_tittle" href="/<?= $bannerPost['slug'] ?>"><?= $bannerPost['title'] ?></a></h2>
-                        <p><?= substr($bannerPost['text'],0,375) ?> ...</p>
-                        <b style="color: lightgray;"><?= substr($bannerPost['post_date'], 0, -3)  ?></b>
+                        <h2><b><a class="slider_tittle" href="/<?= $bannerPost['slug'] ?>"><?= $bannerPost['title'] ?></a></b></h2>
+                        <p><?= substr($bannerPost['text'],0,375) ?> ...</p><br>
+                        <b style="color: #ff7512;"><?= substr($bannerPost['post_date'], 0, -3)  ?></b>
                     </div>
                 </div>
                 <?php endforeach; ?>

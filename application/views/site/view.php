@@ -1,9 +1,13 @@
+<?php //debug($data) ?>
 <section id="contentSection">
     <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-8">
             <div class="left_content">
                 <div class="single_page">
-
+                    <ol class="breadcrumb">
+                        <li><a href="/">Գլխավոր</a></li>
+                        <li class="active"><?= $data['sport'][0]['sport_name'] ?></li>
+                    </ol>
                     <h1><?= $data['post']['title'] ?></h1>
                     <div class="post_commentbox"> <a href="#"><i class="fa fa-user"></i>Wpfreeware</a> <span><i class="fa fa-calendar"></i>6:49 AM</span> <a href="#"><i class="fa fa-tags"></i>Technology</a> </div>
                     <div class="single_page_content"> <img style="margin: 0px 0px 20px 0px;" class="img-center" src="../../../images/<?= $data['post']['image'] ?>" alt="">

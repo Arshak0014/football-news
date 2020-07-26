@@ -55,12 +55,20 @@ class SiteController extends BaseController
 
         $relatedPosts = Post::getPosts('6');
 
+        $sport = array();
+
+        foreach (Sport::getSports() as $sport_name){
+            if ($post['sport_id'] == $sport_name['id']){
+                array_push($sport,$sport_name);
+            }
+        }
 
         if ($post && $post['slug'] == $slug){
 
             $this->view->setTitle($post['title']);
             $this->view->render('site/view',[
                 'post' => $post,
+                'sport' => $sport,
                 'relatedPosts' => $relatedPosts,
             ]);
             return true;
