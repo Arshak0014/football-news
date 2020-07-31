@@ -8,6 +8,9 @@ spl_autoload_register(function ($className){
     require_once $fileName;
 });
 
+ini_set('display_errors',1);
+error_reporting(E_ALL);
+
 
 $router = new application\components\Router();
 

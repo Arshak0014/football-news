@@ -10,8 +10,7 @@
                     </a>
                     <div class="slider_article">
                         <h2><b><a class="slider_tittle" href="/<?= $bannerPost['slug'] ?>"><?= $bannerPost['title'] ?></a></b></h2>
-                        <p><?= substr($bannerPost['text'],0,375) ?> ...</p><br>
-                        <b style="color: #ff7512;"><?= substr($bannerPost['post_date'], 0, -3)  ?></b>
+                        <p><?= substr($bannerPost['text'],0,185) ?>...</p><br>
                     </div>
                 </div>
                 <?php endforeach; ?>
@@ -29,7 +28,7 @@
                 <?php if ($data['armenianNews'] != []) : ?>
                 <div class="single_post_content">
                     <h2><span>Նորություններ Հայաստանից</span></h2>
-                    <div class="single_post_content_left">
+                    <div style="margin-bottom:20px;" class="single_post_content_left">
                         <ul class="business_catgnav  wow fadeInDown">
                             <li>
                                 <figure class="bsbig_fig">
@@ -42,8 +41,8 @@
                                             <?= $data['armenianNews'][0]['title'] ?>
                                         </a>
                                     </figcaption>
-                                    <p><?= substr($data['armenianNews'][0]['text'],0,125) ?> . . .</p>
-                                    <span style="color: slategray"><?= substr($data['armenianNews'][0]['post_date'], 0, -3)  ?></span>
+                                    <p><?= substr($data['armenianNews'][0]['text'],0,125) ?>...</p>
+                                    <span style="color: slategray;"><?= substr($data['armenianNews'][0]['post_date'], 0, -3)  ?></span>
                                 </figure>
                             </li>
                         </ul>
@@ -83,7 +82,7 @@
                                                 <?= $data['footballNews'][0]['title'] ?>
                                             </a>
                                         </figcaption>
-                                        <p><?= substr($data['footballNews'][0]['text'],0,200) ?> . . .</p>
+                                        <p><?= substr($data['footballNews'][0]['text'],0,200) ?>...</p>
                                         <span style="color: slategray"><?= substr($data['footballNews'][0]['post_date'], 0, -3)  ?></span>
                                     </figure>
                                 </li>
@@ -121,7 +120,7 @@
                                                 <?= $data['tennisNews'][0]['title'] ?>
                                             </a>
                                         </figcaption>
-                                        <p><?= substr($data['tennisNews'][0]['text'],0,200) ?> . . .</p>
+                                        <p><?= substr($data['tennisNews'][0]['text'],0,200) ?>...</p>
                                         <span style="color: slategray"><?= substr($data['tennisNews'][0]['post_date'], 0, -3)  ?></span>
                                     </figure>
                                 </li>
@@ -161,7 +160,7 @@
                                                 <?= $data['basketballNews'][0]['title'] ?>
                                             </a>
                                         </figcaption>
-                                        <p><?= substr($data['basketballNews'][0]['text'],0,200) ?> . . .</p>
+                                        <p><?= substr($data['basketballNews'][0]['text'],0,200) ?>...</p>
                                         <span style="color: slategray"><?= substr($data['basketballNews'][0]['post_date'], 0, -3)  ?></span>
                                     </figure>
                                 </li>
@@ -202,7 +201,7 @@
                                                 <?= $data['otherNews'][0]['title'] ?>
                                             </a>
                                         </figcaption>
-                                        <p><?= substr($data['otherNews'][0]['text'],0,200) ?> . . .</p>
+                                        <p><?= substr($data['otherNews'][0]['text'],0,200) ?>...</p>
                                         <span style="color: slategray"><?= substr($data['otherNews'][0]['post_date'], 0, -3)  ?></span>
                                     </figure>
                                 </li>

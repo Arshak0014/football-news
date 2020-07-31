@@ -1,6 +1,6 @@
 <aside class="right_content">
     <div class="single_sidebar">
-        <h2 style="margin-bottom: 20px;"><span>Կարեվոր Նորություններ</span></h2>
+        <h2 style="margin-bottom: 20px;"><span>Կարեվոր</span></h2>
         <ul class="spost_nav">
             <?php
             $where_important_post = 'WHERE is_important = 1';
@@ -28,10 +28,10 @@
                     <ul style="margin-top: 30px;">
                         <?php foreach (\application\models\Sport::getSports() as $sportLink) : ?>
                             <?php if ($sportLink['id'] != '8') : ?>
-                                <li class="cat-item"><a href="#"><b>#<?=$sportLink['sport_name'] ?></b> </a></li>
+                                <li class="cat-item"><a href="/category/<?= $sportLink['slug'] ?>"><b>#<?=$sportLink['sport_name'] ?></b> </a></li>
                             <?php endif; ?>
                         <?php endforeach; ?>
-                        <li class="cat-item"><a href="#"><b>#<?= \application\models\Sport::getSports()[5]['sport_name'] ?></b></a></li>
+                        <li class="cat-item"><a href="/category/<?= \application\models\Sport::getSports()[5]['slug'] ?>"><b>#<?= \application\models\Sport::getSports()[5]['sport_name'] ?></b></a></li>
                     </ul>
                 </div>
                 <div class="single_sidebar wow fadeInDown">
@@ -42,7 +42,7 @@
                                 <li class="cat-item"><a href="#"><b>#<?= $countryLink['country_name'] ?></b></a></li>
                             <?php endif; ?>
                         <?php endforeach; ?>
-                        <li class="cat-item"><a href="#">#<?= \application\models\Country::getCountries()[7]['country_name'] ?></a></li>
+                        <li class="cat-item"><a href="#"><b>#<?= \application\models\Country::getCountries()[7]['country_name'] ?></b></a></li>
                     </ul>
                 </div>
             </div>

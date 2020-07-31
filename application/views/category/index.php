@@ -38,7 +38,7 @@
                     }
                 }
 
-                $pagination = new \application\components\Pagination('/category/'.$arrUrl[1].'/page/','posts','4','4');
+                $pagination = new \application\components\Pagination('/category/'.$arrUrl[1].'/','posts','30','30');
                 if ($post_sport_id != ''){
                     $pagination->html('where sport_id = '.$post_sport_id);
                 }

@@ -1,6 +1,11 @@
 <?php
 
 return array(
+    'category/([a-zA-Z0-9\-\_]+)/country/([a-zA-Z0-9\-\_]+)' => 'category/country/$1/$2',
+    'category/([a-zA-Z0-9\-\_]+)/([0-9]+)' => 'category/index/$1',
+    'category/([a-zA-Z0-9\-\_]+)' => 'category/index/$1',
+    '([0-9]+)' => 'site/view/$1',
+    '' => 'site/index',
 
     'admin/post/delete/([0-9]+)' => 'admin/post/delete/$1',
     'admin/post/update/([0-9]+)' => 'admin/post/update/$1',
@@ -21,8 +26,6 @@ return array(
     'login' => 'user/login',
     'logout' => 'user/logout',
 
-    'category/([a-zA-Z0-9\-\_]+)/page/([0-9]+)' => 'category/index/$1',
-    'category/([a-zA-Z0-9\-\_]+)' => 'category/index/$1',
-    '([a-zA-Z0-9\-\_]+)' => 'site/view/$1',
-    '' => 'site/index',
+
+
 );

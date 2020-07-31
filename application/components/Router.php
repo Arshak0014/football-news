@@ -47,7 +47,7 @@ class Router
 
 
                 if (!file_exists($controllerName.'.php')) {
-                    header("Location: /not-found-404");
+                    header("Location: /404");
                 }
 
 

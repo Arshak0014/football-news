@@ -79,6 +79,20 @@ class Country
         return $result->fetch();
     }
 
+    public static function getCountryBySlug($slug){
+        $db = Db::getConnection();
+
+        $sql = 'SELECT * FROM countries WHERE slug = :slug';
+
+        $result = $db->prepare($sql);
+        $result->bindParam(':slug', $slug, \PDO::PARAM_STR);
+
+        $result->setFetchMode(\PDO::FETCH_ASSOC);
+        $result->execute();
+
+        return $result->fetch();
+    }
+
     public function updateCountryById($id){
         if ($this->validate() == []){
             $update = Db::getConnection()->prepare(
@@ -98,6 +112,5 @@ class Country
         $result->bindParam(':id', $id, \PDO::PARAM_INT);
         return $result->execute();
     }
-
 
 }

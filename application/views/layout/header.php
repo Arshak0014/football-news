@@ -43,7 +43,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="header_bottom">
                     <div class="logo_area"><a href="/" class="logo"><img src="../../../images/logo.png" alt=""></a></div>
-                    <div class="add_banner"><a href="#"><img src="../../../images/addbanner_728x90_V1.jpg" alt=""></a></div>
+                    <div class="add_banner"><a href=""><img src="../../../images/banner_1.png" alt=""></a></div>
                 </div>
             </div>
         </div>
@@ -55,13 +55,19 @@
             </div>
             <div style="background: #014a46" id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav main_nav">
-                    <li class="active"><a href="/"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
+                    <li class="<?= \application\components\Router::getSegment('1') == '' ? 'active' : null ?>">
+                        <a href="/"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a>
+                    </li>
                     <?php foreach (\application\models\Sport::getSports() as $sport) : ?>
                         <?php if ($sport['id'] != '8') : ?>
-                        <li><a href="/category/<?= $sport['slug'] ?>"><?= $sport['sport_name'] ?></a></li>
+                        <li class="<?= \application\components\Router::getSegment('2') == $sport['slug'] ? 'active' : null ?>">
+                            <a href="/category/<?= $sport['slug'] ?>"><?= $sport['sport_name'] ?></a>
+                        </li>
                         <?php endif;?>
                     <?php endforeach; ?>
-                    <li><a href="/category/<?= \application\models\Sport::getSports()[5]['slug'] ?>"><?= \application\models\Sport::getSports()[5]['sport_name'] ?></a></li>
+                    <li class="<?= \application\components\Router::getSegment('2') == \application\models\Sport::getSports()[4]['slug'] ? 'active' : null ?>">
+                        <a href="/category/<?= \application\models\Sport::getSports()[4]['slug'] ?>"><?= \application\models\Sport::getSports()[4]['sport_name'] ?></a>
+                    </li>
                 </ul>
             </div>
         </nav>

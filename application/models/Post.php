@@ -111,6 +111,15 @@ class Post
         return $posts;
     }
 
+    public static function deleteLastItems($sport_id){
+        $db = Db::getConnection();
+
+        $sql = "DELETE FROM posts WHERE sport_id = $sport_id LIMIT 1";
+
+        $result = $db->prepare($sql);
+        return $result->execute();
+    }
+
     public static function getPostsByCategory($id){
         $url = trim($_SERVER['REQUEST_URI'],'/');
         $arrUrl = explode('/', $url);
@@ -119,16 +128,19 @@ class Post
         $category = Router::getSegment('2');
 
         if ($thisUri ==  "/category/$category"){
-            View::redirect("/category/$category/page/1");
+            View::redirect("/category/$category/1");
         }
-        $pagination = new Pagination('/category/'.$arrUrl[1].'/page/','posts','4','4');
+        $pagination = new Pagination('/category/'.$arrUrl[1].'/','posts','30','30');
         $limit = $pagination->limit;
         $res_per_page = $pagination->result_per_page;
-        $this_page_first_result = ($page - 1) * $res_per_page;
+
+        $this_page_first_result = ((int)$page - 1) * $res_per_page;
 
         $db = Db::getConnection();
 
-        $result = $db->query("SELECT * FROM posts WHERE posts.sport_id = '$id' ORDER BY id DESC  LIMIT $this_page_first_result,$limit");
+        $result = $db->query("SELECT posts.*,sports.sport_name FROM posts 
+          LEFT JOIN sports ON posts.sport_id = sports.id WHERE posts.sport_id = '$id' ORDER BY id DESC
+          LIMIT $this_page_first_result,$limit");
 
         $i = 0;
         $posts = array();
@@ -136,6 +148,7 @@ class Post
         while ($row = $result->fetch()) {
             $posts[$i]['id'] = $row['id'];
             $posts[$i]['sport_id'] = $row['sport_id'];
+            $posts[$i]['sport_name'] = $row['sport_name'];
             $posts[$i]['country_id'] = $row['country_id'];
             $posts[$i]['title'] = $row['title'];
             $posts[$i]['slug'] = $row['slug'];
@@ -150,6 +163,10 @@ class Post
         }
 
         return $posts;
+    }
+
+    public static function getPostsByCountry($category){
+        return $category;
     }
 
     public function createPost(){
