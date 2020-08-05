@@ -19,7 +19,7 @@ class PostController extends AdminBaseController
 {
     public function actionIndex(){
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/v');
         }
 
         $posts = Post::getPosts();
@@ -33,7 +33,7 @@ class PostController extends AdminBaseController
 
     public function actionCreate(){
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         $sports = Sport::getSports();
@@ -69,7 +69,7 @@ class PostController extends AdminBaseController
 
     public function actionUpdate($id){
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         $post = Post::getPostById($id);
@@ -107,7 +107,7 @@ class PostController extends AdminBaseController
 
     public function actionDelete($id){
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         Post::deletePost($id);

@@ -19,7 +19,7 @@ class CountryController extends AdminBaseController
     public function actionIndex(){
 
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         $countries = Country::getCountries();
@@ -34,7 +34,7 @@ class CountryController extends AdminBaseController
     public function actionCreate(){
 
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         if (!empty($_POST) && isset($_POST['submit'])){
@@ -60,7 +60,7 @@ class CountryController extends AdminBaseController
     public function actionUpdate($id){
 
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         $country = Country::getCountryById($id);
@@ -89,7 +89,7 @@ class CountryController extends AdminBaseController
 
     public function actionDelete($id){
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         country::deleteCountry($id);

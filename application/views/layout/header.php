@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="../../../assets/css/theme.css">
     <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
     <link rel="stylesheet" href="../../../assets/error/css/style.css">
+    <link rel="icon" type="image/png" href="../../../images/logo.png"/>
     <!--[if lt IE 9]>
     <script src="../../../assets/js/html5shiv.min.js"></script>
     <script src="../../../assets/js/respond.min.js"></script>
@@ -50,23 +51,35 @@
     </header>
     <section id="navArea">
         <nav class="navbar navbar-inverse" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <div style="background: #ff7512;" class="navbar-header">
+                <button style="background: #ff7512;border: ;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             </div>
             <div style="background: #014a46" id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav main_nav">
                     <li class="<?= \application\components\Router::getSegment('1') == '' ? 'active' : null ?>">
-                        <a href="/"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a>
+                        <a href="/"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Գլխավոր</span></a>
+                    </li>
+                    <li class="dropdown <?= \application\components\Router::getSegment('2') == \application\models\Sport::getSports()[0]['slug'] ? 'active' : null ?>">
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-expanded="false">
+                            <?= \application\models\Sport::getSports()[0]['sport_name'] ?>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <?php foreach (\application\models\Country::getCountries() as $country) : ?>
+                            <li>
+                                <a href="/category/football/<?= $country['slug'] ?>/1"><?= $country['country_name'] ?></a>
+                            </li>
+                            <?php endforeach; ?>
+                        </ul>
                     </li>
                     <?php foreach (\application\models\Sport::getSports() as $sport) : ?>
-                        <?php if ($sport['id'] != '8') : ?>
+                        <?php if ($sport['id'] != '8' && $sport['id'] != '1') : ?>
                         <li class="<?= \application\components\Router::getSegment('2') == $sport['slug'] ? 'active' : null ?>">
-                            <a href="/category/<?= $sport['slug'] ?>"><?= $sport['sport_name'] ?></a>
+                            <a href="/category/<?= $sport['slug'] ?>/1"><?= $sport['sport_name'] ?></a>
                         </li>
                         <?php endif;?>
                     <?php endforeach; ?>
                     <li class="<?= \application\components\Router::getSegment('2') == \application\models\Sport::getSports()[4]['slug'] ? 'active' : null ?>">
-                        <a href="/category/<?= \application\models\Sport::getSports()[4]['slug'] ?>"><?= \application\models\Sport::getSports()[4]['sport_name'] ?></a>
+                        <a href="/category/<?= \application\models\Sport::getSports()[4]['slug'] ?>/1"><?= \application\models\Sport::getSports()[4]['sport_name'] ?></a>
                     </li>
                 </ul>
             </div>

@@ -56,9 +56,9 @@ img{border:none}
 .top_nav li a{display:inline-block; border-right:1px solid #333; color:#fff; font-size:11px; font-weight:bold; padding:20px 15px; text-transform:uppercase; -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .top_nav li a:hover{background-color:#ff7512}
 .header_top_right{float:left; display:inline; width:50%; text-align:right}
-.header_top_right > p{color: #ff7512;  display: inline-block;float:right;font:15px sans-serif;margin-bottom: 0;padding-bottom: 8px;padding-right: 14px;padding-top: 11px;padding-left: 14px;background: black;}
+.header_top_right > p{color: #ff7512;  display: inline-block;float:right;font:15px sans-serif;margin-bottom: 0;padding-bottom: 8px;padding-right: 14px;padding-top: 11px;padding-left: 14px;background: black;border-right: 1px solid;border-left: 1px solid;border-top: 1px solid;}
 .header_bottom{background-color:black; display:inline; float:left; padding:15px 30px 15px; width:100%;}
-.logo_area{display:inline; float:left; width:23%;margin-top:7px;}
+.logo_area{display:inline; float:left; width:23%;}
 .logo{font-size:45px; font-weight:bold; color:#000; font-family:'Varela',sans-serif}
 .logo img{max-width:100%}
 .logo img:hover{opacity:1}
@@ -79,7 +79,7 @@ img{border:none}
 .dropdown-menu > li > a{clear:both; color:#ddd; background-color:#222; padding:10px 20px; font-family:'Oswald',sans-serif; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{color:#fff}
 #newsSection{float:left; display:inline; width:100%; padding:0 30px; background-color:white; padding-bottom:20px}
-.latest_newsarea{float:left; display:inline; width:100%; background-color:#000; position:relative}
+.latest_newsarea{float:left; display:inline; width:100%; background-color:#000; position:relative;margin-bottom: 5px}
 .latest_newsarea span{ color:#fff; font-family:Oswald,sans-serif; font-size:15px; left:0; line-height:1.8em; margin-right:20px; overflow:hidden; padding:2px 18px 1px 19px; position:absolute; z-index:15}
 .social_area{ position:absolute; right:0; top:0; background:#fff; border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-right:1px solid #ccc; height:31px}
 .social_nav{ text-align:right}
@@ -103,7 +103,7 @@ img{border:none}
 .social_nav li.mail a:hover{background-position:-240px 0px; background-size:270px 60px; background-color:#b33937}
 #sliderSection{background-color:white; display:inline; float:left; width:100%; padding:0 30px}
 .single_iteam{display:inline; float:left; position:relative; width:100%; height:448px}
-.single_iteam img{width:100%; height:100%}
+.single_iteam img{width:100%; height:100%;border: 2px solid #ff7512}
 .single_iteam img:hover{opacity:1}
 .slider_article{ bottom:20px; left:0; position:absolute; right:0; padding:10px 15px}
 .slider_article > h2 a{ background:none repeat scroll 0 0 rgba(0,0,0,0.4); color:#fff; font-size:17px; display:inline-block}
@@ -133,14 +133,14 @@ img{border:none}
 .business_catgnav li{float:left; display:block; width:100%}
 .bsbig_fig{width:100%}
 .bsbig_fig > a{display:block}
-.bsbig_fig > a img{width:100%}
+.bsbig_fig > a img{width:100%;border: 2px solid #ff7512}
 .bsbig_fig figcaption{color:#333; font-family:"Oswald",sans-serif; font-size:23px; font-weight:300; margin-top:10px; margin-bottom:10px}
 .single_post_content_right{float:right; display:inline; width:48%}
 .right_content{float:left; display:inline; width:100%; min-height:300px}
 .spost_nav{}
 .spost_nav li{float:left; display:block; width:100%; margin-bottom:10px}
 .spost_nav .media-left{width:100px; height:80px}
-.media-left > img{height: 60px;width: 90px;border: 3px solid #ff7512;border-radius: 10px;}
+.media-left > img{height: 60px;width: 90px;border: 2px solid #ff7512}
 .spost_nav .media-body > a{font-family:"Oswald",sans-serif}
 .featured_img{position:relative}
 .overlay:hover{ background:none repeat scroll 0 0 rgba(0,0,0,0.4)}
@@ -186,7 +186,7 @@ figure.effect-layla:hover figcaption::after, figure.effect-layla:hover h2, figur
 .nav-tabs > li > a:hover, .nav-tabs > li > a:focus{color:#fff !important; border:none}
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{border-width:0; border-color:#ddd #ddd transparent; color:#fff}
 .vide_area{float:left; display:inline; width:100%}
-.sideAdd{display:block; float:left; height:250px; width:100%; margin-top:10px}
+.sideAdd{display:block; float:left; width:100%; margin-top:10px}
 .sideAdd > img{width:100%; height:100%}
 .single_sidebar ul li a{border-bottom:1px solid #333; display:block}
 .single_sidebar .spost_nav li a{border-bottom:none; float:left}
@@ -329,8 +329,8 @@ figure.effect-layla:hover figcaption::after, figure.effect-layla:hover h2, figur
 }
 
 @media(max-width:1199px ){.logo_area{width:34%}.add_banner{width:580px}.nav-tabs > li{width:32.3%}.photograph_nav li{width:31.5%}
-    @media(max-width:991px ){.category-main{width: 125px!important;}.scrollToTop{display: none}.add_banner{display: none}.logo_area{width:100%}.nav > li > a{padding:8px 8px}.latest_post_container{height:380px;overflow:hidden}#next-button{bottom:-2px}.single_iteam{height:415px}.photograph_nav li{width:47.7%}.related_post .spost_nav li{width:100%}.nav-tabs > li{width:31.9%}.nav-tabs > li > a{font-size:13px;padding-left:0 !important;padding-right:0 !important;text-align:center}}
+    @media(max-width:991px ){.category-main{width: 125px!important;}.scrollToTop{display: none}.add_banner{display: none}.logo_area{width:50%}.nav > li > a{padding:8px 8px}.latest_post_container{height:380px;overflow:hidden}#next-button{bottom:-2px}.single_iteam{height:415px}.photograph_nav li{width:47.7%}.related_post .spost_nav li{width:100%}.nav-tabs > li{width:31.9%}.nav-tabs > li > a{font-size:13px;padding-left:0 !important;padding-right:0 !important;text-align:center}}
     @media(max-width:767px ){#newsSection{padding-bottom: 0}.category-main{width: 110px!important;}.scrollToTop{display: none}.navbar-collapse{padding-left:15px}.mobile-show{display:block}.desktop-home{display:none}.navbar-inverse .navbar-nav > li > a{display:block}.header_top_left{width:100%}.header_top_right > p{display:none}.social_area{display:none}.single_iteam a{height:100%}.single_iteam a > img{height:100%}.error_page > a{margin-bottom:25px}.nav-tabs > li{width:32.6%}}
-    @media(max-width:480px ){.category-main{width: 105px!important;}.scrollToTop{display: none}.top_nav{text-align:center}.single_post_content_left{width:100%}.single_post_content_right{width:100%}.fashion{width:100%}.technology{width:100%}.copyright{text-align:center;width:100%}.developer{text-align:center;width:100%}.single_iteam{height:300px}.photo_grid figure{height:200px}.photograph_nav li{width:100%;margin-left:0}.nav > li > a{padding:8px 12px}.nav-tabs > li{width:32.6%}}
-    @media(max-width:360px ){.category-main{width: 80px!important;}.scrollToTop{display: none}.latest_newsarea span{font-size:12px;line-height:2.2em;padding:2px 10px 1px 10px}.single_iteam{height:210px}.slider_article > p{display:none}.error_page > span{width:80px}.nav-tabs > li{width:32.3%}.pagination > li > a,.pagination > li > span{padding:4px 8px}}
+    @media(max-width:480px ){.logo_area{width:75%}.category-main{width: 105px!important;}.scrollToTop{display: none}.top_nav{text-align:center}.single_post_content_left{width:100%}.single_post_content_right{width:100%}.fashion{width:100%}.technology{width:100%}.copyright{text-align:center;width:100%}.developer{text-align:center;width:100%}.single_iteam{height:300px}.photo_grid figure{height:200px}.photograph_nav li{width:100%;margin-left:0}.nav > li > a{padding:8px 12px}.nav-tabs > li{width:32.6%}}
+    @media(max-width:360px ){.logo_area{width:100%}.category-main{width: 80px!important;}.scrollToTop{display: none}.latest_newsarea span{font-size:12px;line-height:2.2em;padding:2px 10px 1px 10px}.single_iteam{height:210px}.slider_article > p{display:none}.error_page > span{width:80px}.nav-tabs > li{width:32.3%}.pagination > li > a,.pagination > li > span{padding:4px 8px}}
     @media(max-width:320px ){.category-main{width: 60px!important;}.scrollToTop{display: none}.sociallink_nav li a{padding:5px 10px}.sociallink_nav li:nth-child(1) > a{padding:5px 13px}.nav-tabs > li{width:32.1%}}

@@ -23,7 +23,7 @@
 }
 .my_nav_it a{
     margin: 5px;
-    color: #f54542;
+    color: #ff7512;
 }
 
 .logo{
@@ -35,14 +35,14 @@
     text-decoration: none!important;
     cursor: pointer;
     font-weight: bold;
-    color: #f54542;
+    color: #ff7512;
 }
 .logo a:first-child:hover{
-    color: #f54542;
+    color: #ff7512;
 }
 .my_title{
     float: left;
-    color: #f54542;
+    color: #ff7512;
     padding-top: 0px;
     margin-left: 12px;
 }
@@ -60,7 +60,7 @@
     text-decoration: none!important;
     cursor: pointer;
     font-weight: bold;
-    color: #f54542;
+    color: #ff7512;
     padding: 10px;
 }
 .create:hover{
@@ -72,7 +72,7 @@
 }
 .header_main ul li a{
     text-decoration: none;
-    color: #f54542!important;
+    color: #ff7512!important;
     margin: 5px;
     padding: 10px;
 }

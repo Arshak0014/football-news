@@ -2,6 +2,7 @@
 
 namespace application\controllers;
 use application\base\BaseController;
+use application\base\BaseView;
 use application\models\Country;
 use application\models\Post;
 use application\models\Sport;
@@ -63,6 +64,7 @@ class SiteController extends BaseController
             }
         }
 
+
         if ($post && $post['slug'] == $slug){
 
             $this->view->setTitle($post['title']);
@@ -72,8 +74,11 @@ class SiteController extends BaseController
                 'relatedPosts' => $relatedPosts,
             ]);
             return true;
+        }else{
+            BaseView::errorCode('404');
         }
         return false;
+
     }
 
 

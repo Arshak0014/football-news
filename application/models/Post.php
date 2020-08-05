@@ -88,6 +88,8 @@ class Post
         $result = $db->query("SELECT posts.*, sports.sport_name FROM posts
         LEFT JOIN sports ON posts.sport_id = sports.id $where ORDER BY id DESC LIMIT $limit");
 
+
+
         $i = 0;
         $posts = array();
 
@@ -120,17 +122,9 @@ class Post
         return $result->execute();
     }
 
-    public static function getPostsByCategory($id){
-        $url = trim($_SERVER['REQUEST_URI'],'/');
-        $arrUrl = explode('/', $url);
-        $page = Router::getPage();
-        $thisUri = $_SERVER['REQUEST_URI'];
-        $category = Router::getSegment('2');
+    public static function getPostsByCategory($id,$page){
 
-        if ($thisUri ==  "/category/$category"){
-            View::redirect("/category/$category/1");
-        }
-        $pagination = new Pagination('/category/'.$arrUrl[1].'/','posts','30','30');
+        $pagination = new Pagination('/category/'.$page.'/','posts','30','30');
         $limit = $pagination->limit;
         $res_per_page = $pagination->result_per_page;
 
@@ -165,8 +159,36 @@ class Post
         return $posts;
     }
 
-    public static function getPostsByCountry($category){
-        return $category;
+    public static function getPostsByCountry($country_id,$sport_id,$page){
+        $db = Db::getConnection();
+
+        $result = $db->query("SELECT posts.*,sports.sport_name,countries.country_name FROM posts 
+          LEFT JOIN sports ON posts.sport_id = sports.id
+          LEFT JOIN countries ON posts.country_id = countries.id
+           WHERE posts.country_id = '$country_id' AND posts.sport_id = '$sport_id' ORDER BY id DESC
+    ");
+
+        $i = 0;
+        $posts = array();
+
+        while ($row = $result->fetch()) {
+            $posts[$i]['id'] = $row['id'];
+            $posts[$i]['sport_id'] = $row['sport_id'];
+            $posts[$i]['sport_name'] = $row['sport_name'];
+            $posts[$i]['country_id'] = $row['country_id'];
+            $posts[$i]['title'] = $row['title'];
+            $posts[$i]['slug'] = $row['slug'];
+            $posts[$i]['text'] = $row['text'];
+            $posts[$i]['is_important'] = $row['is_important'];
+            $posts[$i]['is_armenian_news'] = $row['is_armenian_news'];
+            $posts[$i]['is_for_banner'] = $row['is_for_banner'];
+            $posts[$i]['video_link'] = $row['video_link'];
+            $posts[$i]['image'] = $row['image'];
+            $posts[$i]['post_date'] = $row['post_date'];
+            $i++;
+        }
+
+        return $posts;
     }
 
     public function createPost(){

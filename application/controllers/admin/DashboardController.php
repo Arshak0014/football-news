@@ -18,7 +18,7 @@ class DashboardController extends AdminBaseController
     public function actionIndex(){
 
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         $this->view->setTitle('Dashboard');

@@ -23,7 +23,7 @@ class Auth
     {
         session_unset();
         session_destroy();
-        View::redirect('/login');
+        View::redirect('/');
     }
 
 }

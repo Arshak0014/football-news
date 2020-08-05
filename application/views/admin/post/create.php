@@ -70,8 +70,9 @@
         </select><br>
 
         <label for="">Video link</label><br>
-        <input class="create_page_inputs" placeholder="Write Video Link" type="text" name="video_link" value="<?= isset($_POST['video_link']) ? $_POST['video_link'] : null  ?>"/><br>
-
+        <textarea name="video_link" class="create_page_inputs"
+                  placeholder="Write Video Link" cols="30" rows="10"><?= isset($_POST['video_link']) ? $_POST['video_link'] : null  ?></textarea><br>
+        
         <label for="">Image</label><br>
         <input class="" type="file" name="post_image" value="<?= isset($_FILES["image"]["name"]) ? $_FILES["image"]["name"] : null  ?>"><br>
 

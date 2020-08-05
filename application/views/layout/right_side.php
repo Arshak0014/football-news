@@ -23,28 +23,14 @@
         </ul>
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="category">
-                <div class="single_sidebar wow fadeInDown">
-                    <h2><span>Ըստ Սպորտի Տեսակի</span></h2>
                     <ul style="margin-top: 30px;">
                         <?php foreach (\application\models\Sport::getSports() as $sportLink) : ?>
                             <?php if ($sportLink['id'] != '8') : ?>
-                                <li class="cat-item"><a href="/category/<?= $sportLink['slug'] ?>"><b>#<?=$sportLink['sport_name'] ?></b> </a></li>
+                                <li class="cat-item"><a href="/category/<?= $sportLink['slug'] ?>/1"><b>#<?=$sportLink['sport_name'] ?></b> </a></li>
                             <?php endif; ?>
                         <?php endforeach; ?>
-                        <li class="cat-item"><a href="/category/<?= \application\models\Sport::getSports()[5]['slug'] ?>"><b>#<?= \application\models\Sport::getSports()[5]['sport_name'] ?></b></a></li>
+                        <li class="cat-item"><a href="/category/<?= \application\models\Sport::getSports()[4]['slug'] ?>/1"><b>#<?= \application\models\Sport::getSports()[4]['sport_name'] ?></b></a></li>
                     </ul>
-                </div>
-                <div class="single_sidebar wow fadeInDown">
-                    <h2><span>Ըստ Երկրի</span></h2>
-                    <ul style="margin-top: 30px;">
-                        <?php foreach (\application\models\Country::getCountries() as $countryLink) : ?>
-                            <?php if ($countryLink['id'] != '9') : ?>
-                                <li class="cat-item"><a href="#"><b>#<?= $countryLink['country_name'] ?></b></a></li>
-                            <?php endif; ?>
-                        <?php endforeach; ?>
-                        <li class="cat-item"><a href="#"><b>#<?= \application\models\Country::getCountries()[7]['country_name'] ?></b></a></li>
-                    </ul>
-                </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="video">
                 <div class="vide_area">

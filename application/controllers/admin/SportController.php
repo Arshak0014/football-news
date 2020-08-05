@@ -18,7 +18,7 @@ class SportController extends AdminBaseController
     public function actionIndex(){
 
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         $sports = Sport::getSports();
@@ -33,7 +33,7 @@ class SportController extends AdminBaseController
     public function actionCreate(){
 
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         if (!empty($_POST) && isset($_POST['submit'])){
@@ -59,7 +59,7 @@ class SportController extends AdminBaseController
     public function actionUpdate($id){
 
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         $sport = Sport::getSportById($id);
@@ -88,7 +88,7 @@ class SportController extends AdminBaseController
 
     public function actionDelete($id){
         if (Auth::isGuest()){
-            View::redirect('/login');
+            View::redirect('/not_found');
         }
 
         Sport::deleteSport($id);

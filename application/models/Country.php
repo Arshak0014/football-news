@@ -60,6 +60,7 @@ class Country
         while ($row = $result->fetch()) {
             $countries[$i]['id'] = $row['id'];
             $countries[$i]['country_name'] = $row['country_name'];
+            $countries[$i]['slug'] = $row['slug'];
             $i++;
         }
         return $countries;

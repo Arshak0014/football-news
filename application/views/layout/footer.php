@@ -1,7 +1,7 @@
 <footer id="footer">
     <div class="footer_top">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="footer_widget wow fadeInLeftBig">
                     <h2>FreeKick.am</h2>
                     <div style=" width: 102%;" class="logo_area">
@@ -9,35 +9,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="footer_widget wow fadeInDown">
-                    <h2>Sports</h2>
+                    <h2>Սպորտ</h2>
                     <ul class="tag_nav">
                         <?php foreach (\application\models\Sport::getSports() as $sport) : ?>
                             <?php if ($sport['id'] != '8') : ?>
-                            <li><a href="/category/<?= $sport['slug'] ?>"><?= $sport['sport_name'] ?></a></li>
+                            <li><a href="/category/<?= $sport['slug'] ?>/1"><?= $sport['sport_name'] ?></a></li>
                             <?php endif; ?>
                         <?php endforeach; ?>
-                        <li><a href="/category/<?= \application\models\Sport::getSports()['5']['slug'] ?>"><?= \application\models\Sport::getSports()['5']['sport_name'] ?></a></li>
+                        <li><a href="/category/<?= \application\models\Sport::getSports()['5']['slug'] ?>/1"><?= \application\models\Sport::getSports()['5']['sport_name'] ?></a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
-                <div class="footer_widget wow fadeInDown">
-                    <h2>Countries</h2>
-                    <ul class="tag_nav">
-                        <?php foreach (\application\models\Country::getCountries() as $country) : ?>
-                            <?php if ($country['id'] != '9') : ?>
-                            <li><a href="#"><?= $country['country_name'] ?></a></li>
-                            <?php endif; ?>
-                        <?php endforeach; ?>
-                        <li><a href=""><?= \application\models\Country::getCountries()['7']['country_name'] ?></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="footer_widget wow fadeInRightBig">
-                    <h2>Contact</h2>
+                    <h2>Կոնտակտային տվյալներ</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <div>
                         <span style="font-size: 16px;">Էլ-հասցե: <i style="color: #ff7512;"><b>free_kick@gmail.com</i></b></span>
