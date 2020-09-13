@@ -19,7 +19,7 @@
     <link rel="stylesheet" type="text/css" href="../../../assets/css/theme.css">
     <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
     <link rel="stylesheet" href="../../../assets/error/css/style.css">
-    <link rel="icon" type="image/png" href="../../../images/logo.png"/>
+    <link rel="icon" type="image/png" href="../../../images/fav.png"/>
     <!--[if lt IE 9]>
     <script src="../../../assets/js/html5shiv.min.js"></script>
     <script src="../../../assets/js/respond.min.js"></script>

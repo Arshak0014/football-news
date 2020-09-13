@@ -10,6 +10,7 @@
 
 
     <title><?= $this->title ?></title>
+<!--    <script src="//cdn.ckeditor.com/4.14.1/full/ckeditor.js"></script>-->
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>

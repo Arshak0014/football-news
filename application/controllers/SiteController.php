@@ -31,9 +31,9 @@ class SiteController extends BaseController
         $tennisNews = Post::getPosts(5,$where_tennis_news);
         $basketballNews = Post::getPosts(5,$where_basketball_news);
         $otherNews = Post::getPosts(5,$where_other_news);
+//        debug($bannerPosts);
 
         $countriesLinks = Country::getCountries();
-
 
         $this->view->setTitle('FreeKick.am - Գլխավոր');
         $this->view->render('site/index',[

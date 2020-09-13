@@ -32,9 +32,14 @@
         <label for="">Write Post Title *</label><br>
         <input class="create_page_inputs" placeholder="Write Post Title" type="text" name="post_title" value="<?= isset($data['post']['title']) ? $data['post']['title'] : null  ?>"/><br>
 
+<!--        <label for="">Text *</label><br>-->
+<!--        <textarea name="post_text" class="create_page_inputs"-->
+<!--                  placeholder="Write Text" cols="30" rows="10">--><?//= isset($data['post']['text']) ? $data['post']['text'] : null  ?><!--</textarea><br>-->
+
         <label for="">Text *</label><br>
-        <textarea name="post_text" class="create_page_inputs"
-                  placeholder="Write Text" cols="30" rows="10"><?= isset($data['post']['text']) ? $data['post']['text'] : null  ?></textarea><br>
+        <textarea name="post_text" class="create_page_inputs" placeholder="Write Text" id="post_text" cols="30" rows="10">
+            <?= isset($data['post']['text']) ? $data['post']['text'] : null  ?>
+        </textarea>
 
         <label for="">Is important news? *</label><br>
         <select class="create_page_inputs" name="selected_important_news">

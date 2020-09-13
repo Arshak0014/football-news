@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c07af6f0-5048-474b-ad49-0838d6dddf89" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/add_img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/addbanner_728x90_V1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/banban.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/Auth.php" afterPath="$PROJECT_DIR$/application/components/Auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/CategoryController.php" afterPath="$PROJECT_DIR$/application/controllers/CategoryController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/SiteController.php" afterPath="$PROJECT_DIR$/application/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/CountryController.php" afterPath="$PROJECT_DIR$/application/controllers/admin/CountryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/DashboardController.php" afterPath="$PROJECT_DIR$/application/controllers/admin/DashboardController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/PostController.php" afterPath="$PROJECT_DIR$/application/controllers/admin/PostController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/SportController.php" afterPath="$PROJECT_DIR$/application/controllers/admin/SportController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Country.php" afterPath="$PROJECT_DIR$/application/models/Country.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Post.php" afterPath="$PROJECT_DIR$/application/models/Post.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/post/create.php" afterPath="$PROJECT_DIR$/application/views/admin/post/create.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/post/update.php" afterPath="$PROJECT_DIR$/application/views/admin/post/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/category/country.php" afterPath="$PROJECT_DIR$/application/views/category/country.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/error/404.php" afterPath="$PROJECT_DIR$/application/views/error/404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/layout/footer.php" afterPath="$PROJECT_DIR$/application/views/layout/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/layout/admin_footer.php" afterPath="$PROJECT_DIR$/application/views/layout/admin_footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/layout/admin_header.php" afterPath="$PROJECT_DIR$/application/views/layout/admin_header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/layout/header.php" afterPath="$PROJECT_DIR$/application/views/layout/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/layout/right_side.php" afterPath="$PROJECT_DIR$/application/views/layout/right_side.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site/view.php" afterPath="$PROJECT_DIR$/application/views/site/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site/index.php" afterPath="$PROJECT_DIR$/application/views/site/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets_admin/style.css" afterPath="$PROJECT_DIR$/assets_admin/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme.css" afterPath="$PROJECT_DIR$/assets/css/theme.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,22 +22,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/CategoryController.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/layout/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="420">
+              <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/category/index.php">
+        <entry file="file://$PROJECT_DIR$/application/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            <state relative-caret-position="64">
+              <caret line="29" column="86" lean-forward="true" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="right_side.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/layout/right_side.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="860">
+              <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/layout/admin_header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="72" lean-forward="false" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/layout/admin_footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -60,8 +86,8 @@
       <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="126" column="76" lean-forward="false" selection-start-line="126" selection-start-column="76" selection-end-line="126" selection-end-column="76" />
+            <state relative-caret-position="1600">
+              <caret line="84" column="27" lean-forward="false" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
               <folding>
                 <marker date="1596615719486" expanded="true" signature="2497:2627" ph="SELECT posts... posts" />
                 <marker date="1596615719486" expanded="true" signature="3614:3666" ph="DELETE FROM " />
@@ -82,28 +108,17 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.header_top_ri</find>
-      <find>scrollTo</find>
-      <find>.media-left</find>
-      <find>.header_top_right</find>
-      <find>#646464;</find>
-      <find>flickr</find>
-      <find>socials</find>
       <find>.social_nav li.youtube a:hover</find>
       <find>.spost_nav .media-body &gt; a:hover</find>
       <find>scroll</find>
       <find>.logo_ar</find>
       <find>.add_banner img</find>
       <find>.add_banner</find>
-      <find>.slider_article &gt; h2 a</find>
       <find>img:hover</find>
       <find>տ</find>
       <find>էջ</find>
       <find>.navbar-inverse</find>
-      <find>.single_iteam img</find>
-      <find>.bsbig_fig &gt; a img</find>
       <find>.header_top</find>
-      <find>.media-left &gt; img</find>
       <find>.add</find>
       <find>sideAdd</find>
       <find>navbar-header</find>
@@ -112,6 +127,17 @@
       <find>.latest_newsarea</find>
       <find>redi</find>
       <find>not</find>
+      <find>border: 2px solid #ff7512;</find>
+      <find>border: 1px solid #ff7512;</find>
+      <find>.single_iteam img</find>
+      <find>.media-left &gt; img</find>
+      <find>2px</find>
+      <find>padding:7px</find>
+      <find>.slider_article &gt; h2 a</find>
+      <find>.bsbig_fig &gt; a img</find>
+      <find>add_im</find>
+      <find>#2f2f2f</find>
+      <find>#646464</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,10 +146,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/views/layout/main.php" />
         <option value="$PROJECT_DIR$/application/base/AdminBaseController.php" />
         <option value="$PROJECT_DIR$/application/views/layout/admin.php" />
-        <option value="$PROJECT_DIR$/application/views/layout/admin_footer.php" />
         <option value="$PROJECT_DIR$/application/views/admin/dashboard/index.php" />
         <option value="$PROJECT_DIR$/application/models/Sports.php" />
         <option value="$PROJECT_DIR$/application/views/admin/sport/index.php" />
@@ -131,11 +155,9 @@
         <option value="$PROJECT_DIR$/application/views/admin/sport/create.php" />
         <option value="$PROJECT_DIR$/application/views/admin/sport/update.php" />
         <option value="$PROJECT_DIR$/application/views/user/login.php" />
-        <option value="$PROJECT_DIR$/application/views/layout/admin_header.php" />
         <option value="$PROJECT_DIR$/application/views/admin/country/index.php" />
         <option value="$PROJECT_DIR$/application/views/admin/country/create.php" />
         <option value="$PROJECT_DIR$/application/views/admin/country/update.php" />
-        <option value="$PROJECT_DIR$/assets/css/theme.css" />
         <option value="$PROJECT_DIR$/application/views/admin/post/index.php" />
         <option value="$PROJECT_DIR$/application/views/site/error.php" />
         <option value="$PROJECT_DIR$/assets/error/css/style.css" />
@@ -145,32 +167,36 @@
         <option value="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/application/views/layout/right_news.php" />
         <option value="$PROJECT_DIR$/application/controllers/CountryController.php" />
-        <option value="$PROJECT_DIR$/application/views/site/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/application/models/Country.php" />
         <option value="$PROJECT_DIR$/application/controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/application/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/application/components/Router.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/DashboardController.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/SportController.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/PostController.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/CountryController.php" />
         <option value="$PROJECT_DIR$/application/components/Auth.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/post/create.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/post/update.php" />
         <option value="$PROJECT_DIR$/assets_admin/style.css" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/application/views/site/view.php" />
         <option value="$PROJECT_DIR$/application/views/error/404.php" />
-        <option value="$PROJECT_DIR$/application/views/layout/right_side.php" />
         <option value="$PROJECT_DIR$/application/views/layout/footer.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/application/views/layout/header.php" />
         <option value="$PROJECT_DIR$/application/components/Pagination.php" />
-        <option value="$PROJECT_DIR$/application/controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/application/views/category/country.php" />
         <option value="$PROJECT_DIR$/application/models/Post.php" />
+        <option value="$PROJECT_DIR$/application/controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/application/views/category/index.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/post/create.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/post/update.php" />
+        <option value="$PROJECT_DIR$/application/views/layout/admin_footer.php" />
+        <option value="$PROJECT_DIR$/application/views/layout/admin_header.php" />
+        <option value="$PROJECT_DIR$/application/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/application/views/site/index.php" />
+        <option value="$PROJECT_DIR$/application/views/layout/right_side.php" />
+        <option value="$PROJECT_DIR$/application/views/layout/header.php" />
+        <option value="$PROJECT_DIR$/ckeditor/ck_upload.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/assets/css/theme.css" />
       </list>
     </option>
   </component>
@@ -181,9 +207,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="16" />
+    <option name="y" value="47" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -225,7 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,89 +268,7 @@
               <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
               <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="country" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="post" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="category" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="error" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
@@ -333,21 +277,11 @@
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets_admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="football-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="football-news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,19 +289,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\football-news\images" />
-      <recent name="C:\xampp\htdocs\football-news" />
-      <recent name="C:\xampp\htdocs\football-news\assets\css\images" />
-      <recent name="C:\xampp\htdocs\football-news\application\views\error" />
-      <recent name="C:\xampp\htdocs\football-news\application\views\site" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\football-news\images" />
       <recent name="C:\xampp\htdocs\football-news\assets\css\images" />
       <recent name="C:\xampp\htdocs\football-news\application\components" />
       <recent name="C:\xampp\htdocs\football-news\application\views\admin\country" />
       <recent name="C:\xampp\htdocs\football-news\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\football-news\images" />
+      <recent name="C:\xampp\htdocs\football-news" />
+      <recent name="C:\xampp\htdocs\football-news\assets\css\images" />
+      <recent name="C:\xampp\htdocs\football-news\application\views\error" />
+      <recent name="C:\xampp\htdocs\football-news\application\views\site" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -409,25 +343,30 @@
       <workItem from="1595963037288" duration="39306000" />
       <workItem from="1596284357258" duration="1542000" />
       <workItem from="1596351898170" duration="20087000" />
-      <workItem from="1596615505318" duration="213000" />
+      <workItem from="1596615505318" duration="318000" />
+      <workItem from="1596719145001" duration="86000" />
+      <workItem from="1596878122637" duration="1485000" />
+      <workItem from="1597068806017" duration="16627000" />
+      <workItem from="1597230045819" duration="596000" />
+      <workItem from="1597757116453" duration="1108000" />
+      <workItem from="1597765527509" duration="181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254556000" />
+    <option name="totallyTimeSpent" value="274744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="736" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1374" height="736" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20801815" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21255673" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16033058" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04628099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -452,17 +391,188 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/category/country.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        <state relative-caret-position="280">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/right_side.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/admin_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="72" lean-forward="false" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/admin_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor/ck_upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="3980">
+          <caret line="203" column="9" lean-forward="false" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
+          <folding>
+            <marker date="1596615719486" expanded="true" signature="2497:2627" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="3614:3666" ph="DELETE FROM " />
+            <marker date="1596615719486" expanded="true" signature="4116:4304" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="5323:5612" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="7067:7487" ph="INSERT INTO posts... " />
+            <marker date="1596615719486" expanded="true" signature="7774:7812" ph="SELECT * FRO... posts" />
+            <marker date="1596615719486" expanded="true" signature="8132:8166" ph="SELECT * FRO... posts" />
+            <marker date="1596615719486" expanded="true" signature="8937:9414" ph="UPDATE `post... " />
+            <marker date="1596615719486" expanded="true" signature="9611:9643" ph="DELETE FROM " />
+            <marker date="1596615719486" expanded="true" signature="9892:9937" ph="SELECT COUNT... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4400">
+          <caret line="220" column="32" lean-forward="false" selection-start-line="220" selection-start-column="32" selection-end-line="220" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/right_side.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/admin_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="72" lean-forward="false" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/admin_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor/ck_upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3980">
+          <caret line="203" column="9" lean-forward="false" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
+          <folding>
+            <marker date="1596615719486" expanded="true" signature="2497:2627" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="3614:3666" ph="DELETE FROM " />
+            <marker date="1596615719486" expanded="true" signature="4116:4304" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="5323:5612" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="7067:7487" ph="INSERT INTO posts... " />
+            <marker date="1596615719486" expanded="true" signature="7774:7812" ph="SELECT * FRO... posts" />
+            <marker date="1596615719486" expanded="true" signature="8132:8166" ph="SELECT * FRO... posts" />
+            <marker date="1596615719486" expanded="true" signature="8937:9414" ph="UPDATE `post... " />
+            <marker date="1596615719486" expanded="true" signature="9611:9643" ph="DELETE FROM " />
+            <marker date="1596615719486" expanded="true" signature="9892:9937" ph="SELECT COUNT... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/category/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="1875" lean-forward="false" selection-start-line="1" selection-start-column="1875" selection-end-line="1" selection-end-column="1875" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
           <caret line="126" column="76" lean-forward="false" selection-start-line="126" selection-start-column="76" selection-end-line="126" selection-end-column="76" />
           <folding>
             <marker date="1596615719486" expanded="true" signature="2497:2627" ph="SELECT posts... posts" />
@@ -481,16 +591,251 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="280">
           <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/category/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="640">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2440">
+          <caret line="126" column="76" lean-forward="false" selection-start-line="126" selection-start-column="76" selection-end-line="126" selection-end-column="76" />
+          <folding>
+            <marker date="1596615719486" expanded="true" signature="2497:2627" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="3614:3666" ph="DELETE FROM " />
+            <marker date="1596615719486" expanded="true" signature="4116:4304" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="5323:5612" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="7067:7487" ph="INSERT INTO posts... " />
+            <marker date="1596615719486" expanded="true" signature="7774:7812" ph="SELECT * FRO... posts" />
+            <marker date="1596615719486" expanded="true" signature="8132:8166" ph="SELECT * FRO... posts" />
+            <marker date="1596615719486" expanded="true" signature="8937:9414" ph="UPDATE `post... " />
+            <marker date="1596615719486" expanded="true" signature="9611:9643" ph="DELETE FROM " />
+            <marker date="1596615719486" expanded="true" signature="9892:9937" ph="SELECT COUNT... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2440">
+          <caret line="126" column="76" lean-forward="false" selection-start-line="126" selection-start-column="76" selection-end-line="126" selection-end-column="76" />
+          <folding>
+            <marker date="1596615719486" expanded="true" signature="2497:2627" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="3614:3666" ph="DELETE FROM " />
+            <marker date="1596615719486" expanded="true" signature="4116:4304" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="5323:5612" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="7067:7487" ph="INSERT INTO posts... " />
+            <marker date="1596615719486" expanded="true" signature="7774:7812" ph="SELECT * FRO... posts" />
+            <marker date="1596615719486" expanded="true" signature="8132:8166" ph="SELECT * FRO... posts" />
+            <marker date="1596615719486" expanded="true" signature="8937:9414" ph="UPDATE `post... " />
+            <marker date="1596615719486" expanded="true" signature="9611:9643" ph="DELETE FROM " />
+            <marker date="1596615719486" expanded="true" signature="9892:9937" ph="SELECT COUNT... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/category/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/category/country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="1875" lean-forward="false" selection-start-line="1" selection-start-column="1875" selection-end-line="1" selection-end-column="1875" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/post/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="68" column="88" lean-forward="false" selection-start-line="68" selection-start-column="88" selection-end-line="68" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/category/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor/ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/post/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/admin_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="72" lean-forward="false" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/109840744_3228781580515856_6837825830626162608_o-e1595244798316.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor/samples/old/magicline/magicline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="97" column="40" lean-forward="false" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/right_side.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor/ck_upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor/uploads/2fcab53544acdf6cb59cd7c0f47b9a13_ce_720x720x486x0_cropped_800x800.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="84" column="27" lean-forward="false" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+          <folding>
+            <marker date="1596615719486" expanded="true" signature="2497:2627" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="3614:3666" ph="DELETE FROM " />
+            <marker date="1596615719486" expanded="true" signature="4116:4304" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="5323:5612" ph="SELECT posts... posts" />
+            <marker date="1596615719486" expanded="true" signature="7067:7487" ph="INSERT INTO posts... " />
+            <marker date="1596615719486" expanded="true" signature="7774:7812" ph="SELECT * FRO... posts" />
+            <marker date="1596615719486" expanded="true" signature="8132:8166" ph="SELECT * FRO... posts" />
+            <marker date="1596615719486" expanded="true" signature="8937:9414" ph="UPDATE `post... " />
+            <marker date="1596615719486" expanded="true" signature="9611:9643" ph="DELETE FROM " />
+            <marker date="1596615719486" expanded="true" signature="9892:9937" ph="SELECT COUNT... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/admin_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="29" column="86" lean-forward="true" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
           <folding />
         </state>
       </provider>

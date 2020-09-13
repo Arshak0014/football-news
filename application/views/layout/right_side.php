@@ -41,6 +41,6 @@
     </div>
     <div class="single_sidebar wow fadeInDown">
         <h2><span>Գործընկեր</span></h2>
-        <a class="sideAdd" href="#"><img src="../../../images/add_img.jpg" alt=""></a>
+        <a class="sideAdd" href="#"><img src="../../../images/noimage.png" alt=""></a>
     </div>
 </aside>
